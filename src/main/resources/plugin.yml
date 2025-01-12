@@ -1,0 +1,11 @@
+name: EldariaVaults
+version: 1.0
+main: teksya.Vaults.Main
+api-version: 1.21
+commands:
+  vaults:
+    description: Opens the Eldaria Vaults
+    usage: /vaults
+  vaults-reload:
+    description: Reloads the Vaults plugin configuration
+    usage: /vaults-reload

@@ -1,0 +1,44 @@
+# Eldaria Vaults plugin configuration
+# Author: Teksya
+# Version: 1.0
+
+vaults:
+  limit: 250
+  limit_per_player: 5
+  prices:
+    - range: "0-2"
+      amount: 20
+      item: "DIAMOND"
+    - range: "3-4"
+      amount: 30
+      item: "DIAMOND"
+    - range: "5-6"
+      amount: 40
+      item: "DIAMOND"
+    - range: "7-9"
+      amount: 50
+      item: "DIAMOND"
+    - range: "10-14"
+      amount: 60
+      item: "EMERALD"
+    - range: "15-19"
+      amount: 80
+      item: "EMERALD"
+    - range: "20-29"
+      amount: 6
+      item: "NETHERITE_INGOT"
+    - range: "30-39"
+      amount: 8
+      item: "NETHERITE_INGOT"
+    - range: "40-49"
+      amount: 10
+      item: "NETHERITE_INGOT"
+    - range: "50-74"
+      amount: 14
+      item: "NETHERITE_INGOT"
+    - range: "75-100"
+      amount: 18
+      item: "NETHERITE_INGOT"
+  default_price:
+    amount: 100
+    item: "GOLD_INGOT"
